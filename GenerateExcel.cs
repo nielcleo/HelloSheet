@@ -25,7 +25,7 @@ namespace ERNI.GenerateExcel
 
                 //Send email
                 var mail = new MailMessage();
-                mail.To.Add("arni@erni.ph");
+                mail.To.Add("sheet@gmail.com");
                 mail.Subject = "Azure Function Test";
                 mail.From = new MailAddress("cool@gmail.com");
                 mail.Body = "Hi All, ";
